@@ -1,0 +1,6 @@
+Error: Entry with id 'undefined' already exists
+    at EntryTransformToTypeAction.applyTo (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/built/lib/action/entry-transform-to-type.js:49:46)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
+    at async IntentList.applyTo (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/built/lib/intent-list/index.js:90:21)
+    at async migration (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/built/lib/migration-parser.js:154:9)
+    at async run (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/built/bin/cli.js:111:23)

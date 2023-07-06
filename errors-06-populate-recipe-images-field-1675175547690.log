@@ -1,0 +1,117 @@
+UnknownField: {
+  "status": 422,
+  "statusText": "Unprocessable Entity",
+  "message": "No field with id \"galerry\" found.",
+  "details": {
+    "errors": [
+      {
+        "name": "unknown",
+        "path": [
+          "fields",
+          "galerry"
+        ]
+      }
+    ]
+  },
+  "request": {
+    "url": "spaces/y38bqrdu04np/environments/staging-1/entries/W8ITxNKk006U6gQQdf6pT",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/0.0.0-determined-by-semantic-release; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.13.1; os macOS/v16.13.1;",
+      "CF-Sequence": "9f15ff92-1bf4-4056-b98e-be7b2d5e611d",
+      "Authorization": "Bearer ...HtOAI",
+      "user-agent": "node.js/v16.13.1",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 20,
+      "X-Contentful-Content-Type": "recipe",
+      "Content-Length": 843
+    },
+    "method": "put",
+    "payloadData": "{\"sys\":{\"id\":\"W8ITxNKk006U6gQQdf6pT\",\"version\":20,\"publishedVersion\":19,\"contentType\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"ContentType\",\"id\":\"recipe\"}}},\"fields\":{\"title\":{\"en-US\":\"Cheesey Marmite Toast\"},\"slug\":{\"en-US\":\"cheesey-marmite-toast\"},\"thumbnail\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"5Y2IcU84rKo5GxbqZPJ6Yt\"}}},\"featuredImage\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"5Y2IcU84rKo5GxbqZPJ6Yt\"}}},\"ingredients\":{\"en-US\":[\"cheese\",\"bread\",\"marmite\"]},\"cookingTime\":{\"en-US\":10},\"method\":{\"en-US\":{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"Here add the method to cook the cheesy toast\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}},\"galerry\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"cheesey-marmite-toast\"}}]}},\"metadata\":{\"tags\":[]}}"
+  },
+  "requestId": "68b195d9-d48d-408c-9835-c63de6fa2c50"
+}
+    at errorHandler (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/node_modules/contentful-management/dist/contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)VersionMismatch: {
+  "status": 409,
+  "statusText": "Conflict",
+  "message": "",
+  "details": {},
+  "request": {
+    "url": "spaces/y38bqrdu04np/environments/staging-1/entries/W8ITxNKk006U6gQQdf6pT/published",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/0.0.0-determined-by-semantic-release; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.13.1; os macOS/v16.13.1;",
+      "CF-Sequence": "9f15ff92-1bf4-4056-b98e-be7b2d5e611d",
+      "Authorization": "Bearer ...HtOAI",
+      "user-agent": "node.js/v16.13.1",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 21,
+      "X-Contentful-Content-Type": "recipe"
+    },
+    "method": "put"
+  },
+  "requestId": "28d22265-f774-4d0d-8bce-08689788b3b6"
+}
+    at errorHandler (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/node_modules/contentful-management/dist/contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)UnknownField: {
+  "status": 422,
+  "statusText": "Unprocessable Entity",
+  "message": "No field with id \"galerry\" found.",
+  "details": {
+    "errors": [
+      {
+        "name": "unknown",
+        "path": [
+          "fields",
+          "galerry"
+        ]
+      }
+    ]
+  },
+  "request": {
+    "url": "spaces/y38bqrdu04np/environments/staging-1/entries/5fBAC5x1PcSlsMEXZJwSWO",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/0.0.0-determined-by-semantic-release; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.13.1; os macOS/v16.13.1;",
+      "CF-Sequence": "9f15ff92-1bf4-4056-b98e-be7b2d5e611d",
+      "Authorization": "Bearer ...HtOAI",
+      "user-agent": "node.js/v16.13.1",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 19,
+      "X-Contentful-Content-Type": "recipe",
+      "Content-Length": 779
+    },
+    "method": "put",
+    "payloadData": "{\"sys\":{\"id\":\"5fBAC5x1PcSlsMEXZJwSWO\",\"version\":19,\"publishedVersion\":18,\"contentType\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"ContentType\",\"id\":\"recipe\"}}},\"fields\":{\"title\":{\"en-US\":\"Cheesy chips\"},\"slug\":{\"en-US\":\"cheesy-chips\"},\"thumbnail\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"lyBfiaqmc6FT33ZPuvgen\"}}},\"featuredImage\":{\"en-US\":{\"sys\":{\"type\":\"Link\",\"linkType\":\"Asset\",\"id\":\"lyBfiaqmc6FT33ZPuvgen\"}}},\"ingredients\":{\"en-US\":[\"chips\",\"cheese\"]},\"cookingTime\":{\"en-US\":20},\"method\":{\"en-US\":{\"data\":{},\"content\":[{\"data\":{},\"content\":[{\"data\":{},\"marks\":[],\"value\":\"taste cheesy chips\",\"nodeType\":\"text\"}],\"nodeType\":\"paragraph\"}],\"nodeType\":\"document\"}},\"galerry\":{\"en-US\":[{\"sys\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"id\":\"cheesy-chips\"}}]}},\"metadata\":{\"tags\":[]}}"
+  },
+  "requestId": "1111fb80-761f-4193-8628-291417a09137"
+}
+    at errorHandler (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/node_modules/contentful-management/dist/contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)VersionMismatch: {
+  "status": 409,
+  "statusText": "Conflict",
+  "message": "",
+  "details": {},
+  "request": {
+    "url": "spaces/y38bqrdu04np/environments/staging-1/entries/5fBAC5x1PcSlsMEXZJwSWO/published",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/0.0.0-determined-by-semantic-release; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.13.1; os macOS/v16.13.1;",
+      "CF-Sequence": "9f15ff92-1bf4-4056-b98e-be7b2d5e611d",
+      "Authorization": "Bearer ...HtOAI",
+      "user-agent": "node.js/v16.13.1",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 20,
+      "X-Contentful-Content-Type": "recipe"
+    },
+    "method": "put"
+  },
+  "requestId": "3fdb3576-e181-4e89-84e1-cb521cea446f"
+}
+    at errorHandler (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/node_modules/contentful-management/dist/contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)

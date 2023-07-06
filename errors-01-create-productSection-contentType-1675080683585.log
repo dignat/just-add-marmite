@@ -1,0 +1,65 @@
+ValidationFailed: {
+  "status": 422,
+  "statusText": "Unprocessable Entity",
+  "message": "Validation error",
+  "details": {
+    "errors": [
+      {
+        "name": "unexpected",
+        "details": "The property \"validation\" is not expected",
+        "path": [
+          "fields",
+          2,
+          "items",
+          "validation"
+        ]
+      }
+    ]
+  },
+  "request": {
+    "url": "spaces/y38bqrdu04np/environments/staging-1/content_types/productSection",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/0.0.0-determined-by-semantic-release; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.13.1; os macOS/v16.13.1;",
+      "CF-Sequence": "5a8531f9-baa9-4cb3-bd7b-592046785e81",
+      "Authorization": "Bearer ...HtOAI",
+      "user-agent": "node.js/v16.13.1",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 0,
+      "Content-Length": 367
+    },
+    "method": "put",
+    "payloadData": "{\"name\":\"Product Section\",\"displayField\":\"title\",\"fields\":[{\"id\":\"internalName\",\"name\":\"Internal Name\",\"type\":\"Symbol\"},{\"id\":\"title\",\"name\":\"Title\",\"type\":\"Symbol\",\"required\":true},{\"id\":\"products\",\"name\":\"Products\",\"type\":\"Array\",\"items\":{\"type\":\"Link\",\"linkType\":\"Entry\",\"validation\":[{\"linkContentType\":[\"recipe\"]}]}}],\"description\":\"Single product content type\"}"
+  },
+  "requestId": "35cc9337-1af5-4609-9735-cfdf76960540"
+}
+    at errorHandler (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/node_modules/contentful-management/dist/contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)NotFound: {
+  "status": 404,
+  "statusText": "Not Found",
+  "message": "The resource could not be found.",
+  "details": {
+    "type": "ContentType",
+    "id": "productSection",
+    "environment": "staging-1",
+    "space": "y38bqrdu04np"
+  },
+  "request": {
+    "url": "spaces/y38bqrdu04np/environments/staging-1/content_types/productSection/published",
+    "headers": {
+      "Accept": "application/json, text/plain, */*",
+      "Content-Type": "application/vnd.contentful.management.v1+json",
+      "X-Contentful-User-Agent": "app contentful.cli/0.0.0-determined-by-semantic-release; feature space-migration; sdk contentful-management-plain.js/7.54.2; platform node.js/v16.13.1; os macOS/v16.13.1;",
+      "CF-Sequence": "5a8531f9-baa9-4cb3-bd7b-592046785e81",
+      "Authorization": "Bearer ...HtOAI",
+      "user-agent": "node.js/v16.13.1",
+      "Accept-Encoding": "gzip",
+      "X-Contentful-Version": 1
+    },
+    "method": "put"
+  },
+  "requestId": "144af45f-c937-46bf-853f-ad081bdb73f6"
+}
+    at errorHandler (/usr/local/lib/node_modules/contentful-cli/node_modules/contentful-migration/node_modules/contentful-management/dist/contentful-management.node.js:3459:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5)
